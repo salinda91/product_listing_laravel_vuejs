@@ -83,7 +83,7 @@
                     if (!this.product.description.trim()) {
                         this.errors.push('Description field required.');
                     }
-                    if (!this.product.inventory.trim()) {
+                    if (!this.product.inventory) {
                         this.errors.push('Inventory field required.');
                     } else if (this.product.inventory == 0) {
                         this.errors.push('Inventory can not be zero.')
@@ -118,7 +118,7 @@
                     if (this.product.description.trim() == "") {
                         this.errors.push('Description field required.');
                     }
-                    if (this.product.inventory.trim() == "") {
+                    if (this.product.inventory == "") {
                         this.errors.push('Inventory field required.');
                     } else if (this.product.inventory == 0) {
                         this.errors.push('Inventory can not be zero.')

@@ -2020,7 +2020,7 @@ __webpack_require__.r(__webpack_exports__);
           this.errors.push('Description field required.');
         }
 
-        if (!this.product.inventory.trim()) {
+        if (!this.product.inventory) {
           this.errors.push('Inventory field required.');
         } else if (this.product.inventory == 0) {
           this.errors.push('Inventory can not be zero.');
@@ -2058,7 +2058,7 @@ __webpack_require__.r(__webpack_exports__);
           this.errors.push('Description field required.');
         }
 
-        if (this.product.inventory.trim() == "") {
+        if (this.product.inventory == "") {
           this.errors.push('Inventory field required.');
         } else if (this.product.inventory == 0) {
           this.errors.push('Inventory can not be zero.');
