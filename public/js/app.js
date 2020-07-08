@@ -1977,6 +1977,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "AddProductForm",
   data: function data() {
@@ -38641,6 +38644,8 @@ var render = function() {
           : _vm._e(),
         _vm._v(" "),
         _c("div", { staticClass: "form-group" }, [
+          _c("label", { attrs: { for: "" } }, [_vm._v("Name")]),
+          _vm._v(" "),
           _c("input", {
             directives: [
               {
@@ -38665,6 +38670,8 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "form-group" }, [
+          _c("label", { attrs: { for: "" } }, [_vm._v("Description")]),
+          _vm._v(" "),
           _c("textarea", {
             directives: [
               {
@@ -38689,6 +38696,8 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "form-group" }, [
+          _c("label", { attrs: { for: "" } }, [_vm._v("Inventory")]),
+          _vm._v(" "),
           _c("input", {
             directives: [
               {

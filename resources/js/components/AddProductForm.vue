@@ -24,14 +24,17 @@
             </div>
 
             <div class="form-group">
+                <label for="">Name</label>
                 <input type="text" class="form-control" placeholder="Name" v-model="product.name">
             </div>
 
             <div class="form-group">
+                <label for="">Description</label>
                 <textarea class="form-control" rows="3" placeholder="Description"
                           v-model="product.description"></textarea>
             </div>
             <div class="form-group">
+                <label for="">Inventory</label>
                 <input type="text" class="form-control" placeholder="Inventory" v-model="product.inventory"
                        @input="this.onlyNumbers" @change="this.onlyNumbers">
             </div>
